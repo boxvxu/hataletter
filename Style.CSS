@@ -1,0 +1,391 @@
+@font-face{
+    font-family: "Roboto Slab";
+    src: url(Roboto/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+body, html {
+    margin: 0px;
+    font-family: "Arial";
+    border-radius: 0px;
+}
+
+
+.wrapper{
+    margin: auto;
+    max-width: 960px;
+    display: flex;
+    justify-content: space-between;
+}
+ nav {
+    background-color: #1f1f56;
+    
+}
+
+main {
+    display: flex;
+    column-gap: 27px;
+    padding-top: 35px;
+    max-width: 960px;
+    margin: auto;
+    
+}
+
+.menu a {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #b1b1d2;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    column-gap: 25px;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+
+}
+
+p,
+figure,
+figcaption {
+    margin: 0%;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Arial";
+
+}
+
+.contaener {
+    display: flex;
+    column-gap: 30px;
+    margin: auto;
+    max-width: 960px;
+}
+
+.contaener a {
+    display: block;
+}
+
+.box {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    min-width: 220px;
+}
+
+.contact{
+    position: relative;
+    padding-left: 28px;
+    color: #25252c;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+
+}
+.contact:hover{
+    color: #fd8300;
+}
+
+.contact::before{
+    content: '';
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 17px;
+    height: 17px;
+    background-size: contain;
+    background: no-repeat;
+}
+.phone::before{
+    background-image: url('icons/phone.png');
+
+}
+.mail {
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: underline;
+
+
+}
+.mail::before{
+    background-image: url(icons/email.svg);
+}
+
+.skype {
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.skype::before{
+    background-image: url(icons/skype.svg);
+
+}
+
+.calling {
+    padding: 15px 0;
+    border: #fd8300 2px solid;
+    border-radius:  25px;
+    font-size: 14px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: white;
+    background-color: #fd8300;
+    max-width: 180px;
+}
+ .dark{
+    border-color: #1f1f56;
+    background-color: #1f1f56;
+    margin: auto;
+    margin-top:15px ;
+    margin-bottom: 15px;
+}
+.blue-block{
+    background-color: #08081a;
+    color: #9999a6;
+    text-align: center;
+    font-size: 13px;
+}
+.copyright{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.orange-text{
+color: #fd8300;
+
+}
+.details{
+    display:inline-block;
+    max-width: 240px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 19px;
+color: #9999a6;
+}
+.discount{
+    font-size: 24px;
+line-height: 24px;
+color: #ffffff;
+font-weight: bold;
+font-family: "Arial";
+text-align: center;
+}
+.orange-block{
+    background-color: #fd8300;
+    color: #ffffff;
+    text-align: center;
+    font-size: 13px;
+}
+
+.price {
+    text-align: center;
+    color: white;
+    background-image: url('img/Background.png');
+    background-color: black;
+    background-size: cover;
+    padding: 60px;
+}
+
+.price h2 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+
+.price p {
+    font-size: 14px;
+}
+
+.price strong {
+    font-size: 40px;
+    color: #fd8300;
+    font-weight: bold;
+}
+
+.price sup {
+    font-size: 24px;
+}
+
+article a {
+    font-size: 14px;
+    text-decoration: underline;
+    color: #fd8300;
+    font-weight: bold;
+    margin: 25px 0px;
+    display: block;
+
+}
+article a:hover{
+    color: #1f1f56;
+    font-size: 18px;
+    margin-bottom: 21px;
+}
+
+.article{
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+}
+
+h1 {
+    font-size: 24px;
+    color: #24242b;
+    font-weight: 700;
+    font-family: "Arial"
+}
+
+.houses {
+    display: flex;
+    font-size: 13px;
+    line-height: 18px;
+    color: #9999a6;
+    column-gap: 30px;
+}
+
+.houses-h3 {
+    margin: 0%;
+    width: 240px;
+    font-size: 16px;
+    color: #1f1f56;
+    font-weight: bold;
+}
+
+.Categories {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    padding-left: 16px;
+    padding-top: 13px;
+    padding-bottom: 17px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+aside nav {
+    flex-direction: column;
+    width: 220px;
+}
+
+.Typesofhouses {
+    background-color: #e4e4ec;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+}
+
+.Typesofhouses li {
+    display: block;
+}
+
+.Typesofhouses a {
+    font-size: 14px;
+    color: #25252c;
+    font-family: "Arial";
+    display: block;
+    padding-left: 16px;
+    padding-top: 13px;
+    padding-bottom: 17px;
+    position: relative;
+}
+
+.Typesofhouses > li:hover > a {
+    background-color: #fd8300;
+}
+.Typesofhouses > li > a::before{
+    content:"" ;
+    position: absolute;
+    border: 1px solid black;
+    height: 5px;
+    width: 5px;
+    right: 10px;
+    top: 10px;
+    transform: rotate(45deg);
+    top: 18px;
+    border-bottom: none;
+    border-left: none
+    ;
+
+
+}
+.Typesofhouses > li:hover > a::before{
+    transform: rotate(-225deg);
+}
+.sublist {
+    flex-direction: column;
+    display: none;
+}
+
+.Typesofhouses li:hover .sublist{
+   display: block; 
+}
+.sublist a {
+    padding-left: 30px;
+
+}
+
+.sublist a:hover {
+    background-color: #cecedd;
+}
+
+footer {
+    background-color: #ededf5;
+    margin-top: 45px;
+
+}
+
+.hataplus {
+    background-color: #dcdce6;
+    font-size: 13px;
+    color: #9999a6;
+    font-family: "Arial";
+    text-align: center;
+    padding: 15px;
+
+}
+.information li a{
+  font-size: 14px;
+  line-height: 26px;
+  color: #666666;
+}
+.information li a:hover{
+    text-decoration: underline;
+    color: #fd8300;
+}
+.projects{
+    margin: 30px 0px;
+    font-size: 24px;
+    color: #24242b;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+table{
+    background-color: #e4e4ec;
+    border-radius: 3px;
+    border-collapse: collapse;
+    max-width: 600px;
+    margin: auto;
+}
+
+thead{
+    background-color: #1f1f56;
+    color: white;
+}
+td{
+    padding: 15px 20px;
+}
+th{
+    padding: 18px 20px 13px 20px;
+    
+}
